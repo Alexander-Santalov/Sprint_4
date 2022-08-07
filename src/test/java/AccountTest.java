@@ -42,7 +42,7 @@ public class AccountTest {
     public void checkingCorrectEnteredNameTest() {
         Account account = new Account(name);
         boolean actual = account.checkNameToEmboss();
-        assertEquals("Данные введены неверно", actual, expected);
+        assertEquals("Данные введены некорректно", actual, expected);
     }
 
 
